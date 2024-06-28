@@ -25,7 +25,7 @@ p{
     margin-left: 100px;
 }
 div{
-    display: flexbox;
+    display: inline-block;
     border-radius: 20px;
     background-color: hsl(0, 0%, 12%);
     width: 400px;
@@ -34,7 +34,7 @@ img{
     margin-top: 20px;
     border-radius: 50%;
     width: 200px;
-    height: 180px;
+    height: 200px;
 }
 
 a{
@@ -58,6 +58,7 @@ a{
     list-style-type: none;
     margin-top: 20px;
     margin-bottom: 20px;
+    align-items: center;
 }
 .listas {
     margin: auto;
@@ -70,5 +71,12 @@ a:hover {
 }
 .container:hover {
     border-color: hsl(75, 94%, 57%);
+    
+}
+.tst {
+    display: inline-block;
+    max-width: 500px;
+    margin-left: 50px;
+    text-align:start;
     
 }
