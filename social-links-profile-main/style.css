@@ -11,29 +11,30 @@ h1{
    font-weight: 700;
    font-size: 20px;
    margin-bottom: 0;
+   letter-spacing: 2px;
 }
 p{
     margin-top: 25px;
 }
 .container{
-    justify-content: center;
-    align-items: center;
+    border-style: solid;
+    border-color: black;
     text-align: center;
-    margin-top: 150px;
+    justify-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 div{
-    display: block;
-    margin-bottom: 10px;
+    display: flexbox;
     border-radius: 20px;
     background-color: hsl(0, 0%, 12%);
-    text-align: center;
-    align-items: center;
     width: 400px;
-    margin: auto;
 }
 img{
     margin-top: 20px;
     border-radius: 50%;
+    width: 200px;
+    height: 180px;
 }
 
 a{
@@ -45,6 +46,7 @@ a{
     width: 200px;
     padding: 15px 50px;
     border-radius: 10px;
+    justify-content: space-evenly;
     margin: auto;
 }
 .local{
@@ -58,8 +60,15 @@ a{
     margin-bottom: 20px;
 }
 .listas {
+    margin: auto;
     padding-bottom: 50px;
+    right: 1px;
 }
 a:hover {
-    background-color: white;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.container:hover {
+    border-color: hsl(75, 94%, 57%);
+    
 }
